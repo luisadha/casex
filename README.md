@@ -3,6 +3,12 @@ CigarettesAfterSex Online Prompt minimal for Termux
 
 > Motivating: To disguise the @ symbol prefix bug that was hard to get rid of in the default termux prompt (bash), I made a Casex prompt to solve the bad prompt problem in termux to be equivalent to PS1 zsh or fish.
 
+# Prerequesite
+* rustc & cargo
+* python3 (package)
+* hr (package)
+* bash-preexec (plugin)
+  
 # Build from source
 ```sh
 rustc -o casex main.rs && mv casex ../usr/bin
