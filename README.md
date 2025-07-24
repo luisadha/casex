@@ -19,4 +19,5 @@ trap '' WINCH
 # Hook prompt
 eval "$(casex init bash)"
 ```
+# Last Testing on Termux Version 0.119.0-beta.3 (1022) 
 # License
