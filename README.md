@@ -15,7 +15,7 @@ rustc -o casex main.rs && mv casex ../usr/bin
 ```
 
 # Hook or sourcing
-### my preference configurations at $PREFIX/usr/etc/profile.d/~~casex.sh
+### my preference configurations at $PREFIX/usr/etc/profile.d/casex-hook.sh
 
 ```sh
 ## Configurations
@@ -24,6 +24,10 @@ trap '' WINCH
 # This make prompt statically (Ini akan membuat prompt menjadi statis)
 # Hook prompt
 eval "$(casex init bash)"
+```
+## Uninstalling prompt 
+```sh
+rm -f $PREFIX/usr/etc/profile.d/casex-hook.sh
 ```
 # Last Testing on Termux Version 0.119.0-beta.3 (1022) 
 # License
