@@ -9,9 +9,15 @@ CigarettesAfterSex Online Prompt minimal for Termux
 * hr (package)
 * bash-preexec (plugin)
   
-# Build from source
-```sh
-rustc -o casex main.rs && mv casex ../usr/bin
+## Installation
+
+```sh mkdir -p $GOPATH/src/github.com/luisadha
+cd $GOPATH/src/github.com/luisadha
+
+git clone https://github.com/<username>/casex.git
+cd casex
+
+make install
 ```
 
 # Hook or sourcing
