@@ -14,7 +14,7 @@ CigarettesAfterSex Online Prompt minimal for Termux
 ```sh mkdir -p $GOPATH/src/github.com/luisadha
 cd $GOPATH/src/github.com/luisadha
 
-git clone https://github.com/<username>/casex.git
+git clone https://github.com/luisadha/casex.git
 cd casex
 
 make install
